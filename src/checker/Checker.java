@@ -22,7 +22,7 @@ public class Checker {
     }
 
     // статический метод, возвращающий объект-наследник класса AbstractExpression
-    // для дальнейшего помещения его в калькулятор
+    // для дальнейшего помещения его в калькулятор.
     public static AbstractExpression getExpressionWithIdentifiedNumberSystemAndMathOperationType(String str) throws Exception {
         // определяем знак выражения и присваиваем его переменной типа MathOperationTypeEnum
         MathOperationTypeEnum mathOperationType = identifyMathSign(str);
