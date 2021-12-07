@@ -1,6 +1,7 @@
-package Scanner;
-
+package scanner;
 import java.util.Scanner;
+// небольшой класс для получения введённого с клавиатуры выражения
+
 
 public class MyScanner {
     public static String getLineFromKeyboard() {

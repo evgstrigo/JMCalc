@@ -1,6 +1,7 @@
-import Calculators.Calculator;
-import NumberTypeExpressions.AbstractExpression;
-import Scanner.MyScanner;
+import calculators.Calculator;
+import checker.Checker;
+import numberTypeExpressions.AbstractExpression;
+import scanner.MyScanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
